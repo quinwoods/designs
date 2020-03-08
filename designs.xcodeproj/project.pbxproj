@@ -41,6 +41,9 @@
 		37A0E0E2241075F000C66EC8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A0E0E1241075F000C66EC8 /* Card.swift */; };
 		37A0E0E424107D1400C66EC8 /* CardWithContent_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A0E0E324107D1400C66EC8 /* CardWithContent_0.swift */; };
 		37A2928A2414A3CB008595DE /* PackageMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A292892414A3CB008595DE /* PackageMapView.swift */; };
+		37A2928C24153CC3008595DE /* CompostingOrganismDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2928B24153CC3008595DE /* CompostingOrganismDetails.swift */; };
+		37A2928F24153D58008595DE /* CompostingCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2928E24153D58008595DE /* CompostingCenter.swift */; };
+		37A2929124153E6B008595DE /* ExapandingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2929024153E6B008595DE /* ExapandingCard.swift */; };
 		37E052A024148EDE0015B836 /* Card_large.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0529F24148EDE0015B836 /* Card_large.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +90,9 @@
 		37A0E0E1241075F000C66EC8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		37A0E0E324107D1400C66EC8 /* CardWithContent_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWithContent_0.swift; sourceTree = "<group>"; };
 		37A292892414A3CB008595DE /* PackageMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageMapView.swift; sourceTree = "<group>"; };
+		37A2928B24153CC3008595DE /* CompostingOrganismDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostingOrganismDetails.swift; sourceTree = "<group>"; };
+		37A2928E24153D58008595DE /* CompostingCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostingCenter.swift; sourceTree = "<group>"; };
+		37A2929024153E6B008595DE /* ExapandingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExapandingCard.swift; sourceTree = "<group>"; };
 		37E0529F24148EDE0015B836 /* Card_large.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_large.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,11 +113,7 @@
 				373EAA712412FF7D00B2486C /* Logo.swift */,
 				373EAA2B2412C4D000B2486C /* Splash.swift */,
 				37A292882414A3AA008595DE /* Organisms */,
-				373EAA81241460ED00B2486C /* PackageCardView.swift */,
 				373EAA8324147DD000B2486C /* Atoms */,
-				373EAA792414541100B2486C /* PackageModel.swift */,
-				373EAA7F241455D900B2486C /* CompanyModel.swift */,
-				373EAA6F2412F24F00B2486C /* Fonts.swift */,
 			);
 			path = Lavendale;
 			sourceTree = "<group>";
@@ -164,6 +166,11 @@
 			children = (
 				373EAA732414426900B2486C /* Button_medium.swift */,
 				37E0529F24148EDE0015B836 /* Card_large.swift */,
+				373EAA7F241455D900B2486C /* CompanyModel.swift */,
+				373EAA792414541100B2486C /* PackageModel.swift */,
+				37A2928E24153D58008595DE /* CompostingCenter.swift */,
+				37A2929024153E6B008595DE /* ExapandingCard.swift */,
+				373EAA6F2412F24F00B2486C /* Fonts.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -226,8 +233,18 @@
 			isa = PBXGroup;
 			children = (
 				37A292892414A3CB008595DE /* PackageMapView.swift */,
+				37A2928D24153CEE008595DE /* Molecules */,
+				373EAA81241460ED00B2486C /* PackageCardView.swift */,
+				37A2928B24153CC3008595DE /* CompostingOrganismDetails.swift */,
 			);
 			path = Organisms;
+			sourceTree = "<group>";
+		};
+		37A2928D24153CEE008595DE /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +338,7 @@
 				373EAA742414426900B2486C /* Button_medium.swift in Sources */,
 				37A2928A2414A3CB008595DE /* PackageMapView.swift in Sources */,
 				37A0E0E2241075F000C66EC8 /* Card.swift in Sources */,
+				37A2928C24153CC3008595DE /* CompostingOrganismDetails.swift in Sources */,
 				373EAA82241460ED00B2486C /* PackageCardView.swift in Sources */,
 				373EAA80241455D900B2486C /* CompanyModel.swift in Sources */,
 				37A0E0E02410748A00C66EC8 /* MapViewer.swift in Sources */,
@@ -329,6 +347,8 @@
 				37A0E0CC2410744C00C66EC8 /* SceneDelegate.swift in Sources */,
 				37A0E0CE2410744C00C66EC8 /* ContentView.swift in Sources */,
 				373EAA7A2414541100B2486C /* PackageModel.swift in Sources */,
+				37A2929124153E6B008595DE /* ExapandingCard.swift in Sources */,
+				37A2928F24153D58008595DE /* CompostingCenter.swift in Sources */,
 				373EAA722412FF7D00B2486C /* Logo.swift in Sources */,
 				373EAA2C2412C4D000B2486C /* Splash.swift in Sources */,
 				373EAA702412F24F00B2486C /* Fonts.swift in Sources */,
