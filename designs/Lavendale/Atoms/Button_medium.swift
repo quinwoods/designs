@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Button_large: View {
+struct Button_medium: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -16,6 +16,7 @@ struct Button_large: View {
 
 struct Button_large_Previews: PreviewProvider {
     static var previews: some View {
-        Button_large()
+        Button_medium()
     }
 }
+ 
