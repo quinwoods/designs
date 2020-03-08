@@ -9,6 +9,18 @@
 import SwiftUI
 
 struct PackageCardView: View {
+    var buttonone: () ->Void
+    
+       var buttonone_name: String
+    
+    var buttontwo: () ->Void
+    
+ var buttontwo_name: String
+    
+    
+    
+    
+    
     var body: some View {
         VStack {
             VStack {
@@ -17,16 +29,10 @@ struct PackageCardView: View {
             }
             Spacer()
             HStack {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("show me").foregroundColor(.white).modifier(H6())
-                }.frame(width: 156, height: 44).background(Color(#colorLiteral(red: 0.1921568627, green: 0.5921568627, blue: 0.5294117647, alpha: 1)))
-                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                Button_medium(function: self.buttonone, action: buttonone_name)
                 
                 Spacer()
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("add package").foregroundColor(.white).modifier(H6())
-                }.frame(width: 156, height: 44).background(Color(#colorLiteral(red: 0.1921568627, green: 0.5921568627, blue: 0.5294117647, alpha: 1)))
-                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                Button_medium(function: self.buttontwo, action: buttontwo_name)
             }.padding()
         } .frame(width: 340, height: 220)
             .background(Color(#colorLiteral(red: 0.6235294118, green: 0.7568627451, blue: 0.8156862745, alpha: 1)))
@@ -34,8 +40,8 @@ struct PackageCardView: View {
     }
 }
 
-struct PackageCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        PackageCardView()
-    }
-}
+//struct PackageCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        PackageCardView()
+//    }
+//}
