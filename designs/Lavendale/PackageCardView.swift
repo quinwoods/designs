@@ -20,8 +20,8 @@ struct PackageCardView: View {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("show me").foregroundColor(.white).modifier(H6())
                 }.frame(width: 156, height: 44).background(Color(#colorLiteral(red: 0.1921568627, green: 0.5921568627, blue: 0.5294117647, alpha: 1)))
-                .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-
+                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                
                 Spacer()
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("add package").foregroundColor(.white).modifier(H6())
@@ -29,8 +29,8 @@ struct PackageCardView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
             }.padding()
         } .frame(width: 340, height: 220)
-                   .background(Color(#colorLiteral(red: 0.6235294118, green: 0.7568627451, blue: 0.8156862745, alpha: 1)))
-                       .clipShape(RoundedRectangle(cornerRadius:  20, style: .continuous))
+            .background(Color(#colorLiteral(red: 0.6235294118, green: 0.7568627451, blue: 0.8156862745, alpha: 1)))
+            .clipShape(RoundedRectangle(cornerRadius:  20, style: .continuous))
     }
 }
 
