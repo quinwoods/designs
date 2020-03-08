@@ -54,7 +54,7 @@ struct H3: ViewModifier {
 struct H4: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .font(.custom("Along Sans", size: 36))
+            .font(.custom("ALONGsansmedium", size: 36))
     }
 }
 struct H5: ViewModifier {
@@ -66,6 +66,6 @@ struct H5: ViewModifier {
 struct H6: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .font(.custom("Along Sans", size: 18))
+            .font(.custom("AlongSansmedium", size: 18))
     }
 }
