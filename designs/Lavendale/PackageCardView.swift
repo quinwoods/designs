@@ -11,13 +11,15 @@ import SwiftUI
 struct PackageCardView: View {
     var buttonone: () ->Void
     
-       var buttonone_name: String
+    var buttonone_name: String
     
     var buttontwo: () ->Void
     
  var buttontwo_name: String
     
+    var color: Color
     
+        
     
     
     
@@ -35,7 +37,7 @@ struct PackageCardView: View {
                 Button_medium(function: self.buttontwo, action: buttontwo_name)
             }.padding()
         } .frame(width: 340, height: 220)
-            .background(Color(#colorLiteral(red: 0.6235294118, green: 0.7568627451, blue: 0.8156862745, alpha: 1)))
+            .background(color)
             .clipShape(RoundedRectangle(cornerRadius:  20, style: .continuous))
     }
 }
