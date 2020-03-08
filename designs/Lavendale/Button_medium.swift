@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TextField: View {
+struct Button_medium: View {
     var body: some View {
         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
             Text("run function").foregroundColor(.white).modifier(H6())
@@ -20,6 +20,6 @@ struct TextField: View {
 
 struct TextField_Previews: PreviewProvider {
     static var previews: some View {
-        TextField()
+        Button_medium()
     }
 }
