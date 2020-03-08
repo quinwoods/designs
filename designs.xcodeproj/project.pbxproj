@@ -30,6 +30,7 @@
 		373EAA7A2414541100B2486C /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA792414541100B2486C /* PackageModel.swift */; };
 		373EAA80241455D900B2486C /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA7F241455D900B2486C /* CompanyModel.swift */; };
 		373EAA82241460ED00B2486C /* PackageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA81241460ED00B2486C /* PackageCardView.swift */; };
+		373EAA8524147DF800B2486C /* Button_large.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373EAA8424147DF800B2486C /* Button_large.swift */; };
 		37A0E0CA2410744C00C66EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A0E0C92410744C00C66EC8 /* AppDelegate.swift */; };
 		37A0E0CC2410744C00C66EC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A0E0CB2410744C00C66EC8 /* SceneDelegate.swift */; };
 		37A0E0CE2410744C00C66EC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A0E0CD2410744C00C66EC8 /* ContentView.swift */; };
@@ -72,6 +73,7 @@
 		373EAA792414541100B2486C /* PackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageModel.swift; sourceTree = "<group>"; };
 		373EAA7F241455D900B2486C /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
 		373EAA81241460ED00B2486C /* PackageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCardView.swift; sourceTree = "<group>"; };
+		373EAA8424147DF800B2486C /* Button_large.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_large.swift; sourceTree = "<group>"; };
 		37A0E0C62410744C00C66EC8 /* designs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = designs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A0E0C92410744C00C66EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A0E0CB2410744C00C66EC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				373EAA712412FF7D00B2486C /* Logo.swift */,
 				373EAA732414426900B2486C /* TextField.swift */,
 				373EAA81241460ED00B2486C /* PackageCardView.swift */,
+				373EAA8324147DD000B2486C /* Atoms */,
 				373EAA792414541100B2486C /* PackageModel.swift */,
 				373EAA7F241455D900B2486C /* CompanyModel.swift */,
 				373EAA6F2412F24F00B2486C /* Fonts.swift */,
@@ -152,6 +155,14 @@
 				373EAA602412D1F700B2486C /* WorkSans-Bold.ttf */,
 			);
 			path = Work_Sans;
+			sourceTree = "<group>";
+		};
+		373EAA8324147DD000B2486C /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				373EAA8424147DF800B2486C /* Button_large.swift */,
+			);
+			path = Atoms;
 			sourceTree = "<group>";
 		};
 		37A0E0BD2410744C00C66EC8 = {
@@ -296,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A0E0CA2410744C00C66EC8 /* AppDelegate.swift in Sources */,
+				373EAA8524147DF800B2486C /* Button_large.swift in Sources */,
 				373EAA742414426900B2486C /* TextField.swift in Sources */,
 				37A0E0E2241075F000C66EC8 /* Card.swift in Sources */,
 				373EAA82241460ED00B2486C /* PackageCardView.swift in Sources */,

@@ -10,7 +10,11 @@ import SwiftUI
 
 struct TextField: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+            Text("run function").foregroundColor(.white).modifier(H6())
+        }.frame(width: 156, height: 44).background(Color(#colorLiteral(red: 0.1921568627, green: 0.5921568627, blue: 0.5294117647, alpha: 1)))
+        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+
     }
 }
 
